@@ -1,0 +1,32 @@
+Package: spscsfa
+Title: Semiparametric Smooth-Coefficient Stochastic Frontier Analysis
+Version: 0.1.0
+Authors@R: person(given = "Kai", family = "Sun", role = c("aut", "cre"), email = "ksun1@shu.edu.cn")
+Maintainer: Kai Sun <ksun1@shu.edu.cn>
+Description: Provides semiparametric smooth-coefficient stochastic frontier
+    analysis following Sun and Kumbhakar (2013)
+    <doi:10.1016/j.econlet.2013.05.001> where the coefficients
+    of the parametric part vary smoothly with a set of nonparametric variables.
+    Inefficiency term is allowed to depend on a set of determinants through
+    heteroskedasticity. Smooth coefficients are estimated using nonparametric
+    regression and the remaining frontier parameters are estimated by maximum
+    likelihood. Technical efficiency and inefficiency are computed using the
+    Battese and Coelli (1988)
+    <doi:10.1016/0304-4076(88)90053-X> and Jondrow et al. (1982)
+    <doi:10.1016/0304-4076(82)90004-5> methods,
+    respectively. Confidence intervals for technical efficiency are computed
+    using the approach of Horrace and Schmidt (1996)
+    <doi:10.1007/BF00157044>.
+License: AGPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 3.5)
+Imports: Formula, np, stats
+Config/roxygen2/version: 8.1.0
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
+NeedsCompilation: no
+Packaged: 2026-09-19 07:45:12 UTC; Administrator
+Author: Kai Sun [aut, cre]
+Repository: CRAN
+Date/Publication: 2026-09-29 14:20:02 UTC
