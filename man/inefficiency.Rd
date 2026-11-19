@@ -7,7 +7,7 @@
 inefficiency(x)
 }
 \arguments{
-\item{x}{An object of class `spsc_sfa`.}
+\item{x}{An object of class `spscsfa`.}
 }
 \value{
 A numeric vector of JLMS conditional inefficiency estimates.

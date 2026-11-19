@@ -2,16 +2,16 @@
 % Please edit documentation in R/extract.R
 \name{te}
 \alias{te}
-\title{Extract technical-efficiency scores}
+\title{Extract technical efficiency scores}
 \usage{
 te(x)
 }
 \arguments{
-\item{x}{An object of class `spsc_sfa`.}
+\item{x}{An object of class \code{"spscsfa"}.}
 }
 \value{
-A numeric vector of technical-efficiency estimates.
+A numeric vector of technical efficiency estimates.
 }
 \description{
-Extract technical-efficiency scores
+Extract technical efficiency scores
 }

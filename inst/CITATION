@@ -3,6 +3,6 @@ bibentry(
   title = "spscsfa: Semiparametric Smooth-Coefficient Stochastic Frontier Analysis",
   author = person("Kai", "Sun"),
   year = "2026",
-  note = "R package version 0.1.0",
+  note = "R package version 0.2.0",
   url = "https://CRAN.R-project.org/package=spscsfa"
 )

@@ -1,6 +1,6 @@
 Package: spscsfa
 Title: Semiparametric Smooth-Coefficient Stochastic Frontier Analysis
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person(given = "Kai", family = "Sun", role = c("aut", "cre"), email = "ksun1@shu.edu.cn")
 Maintainer: Kai Sun <ksun1@shu.edu.cn>
 Description: Provides semiparametric smooth-coefficient stochastic frontier
@@ -13,20 +13,28 @@ Description: Provides semiparametric smooth-coefficient stochastic frontier
     likelihood. Technical efficiency and inefficiency are computed using the
     Battese and Coelli (1988)
     <doi:10.1016/0304-4076(88)90053-X> and Jondrow et al. (1982)
-    <doi:10.1016/0304-4076(82)90004-5> methods,
+    <doi:10.1016/0304-4076(82)90004-5> (JLMS) methods,
     respectively. Confidence intervals for technical efficiency are computed
     using the approach of Horrace and Schmidt (1996)
-    <doi:10.1007/BF00157044>.
+    <doi:10.1007/BF00157044>. Marginal effects of inefficiency determinants
+    on the JLMS inefficiency estimator are computed following Kumbhakar and Sun (2013) 
+    <doi:10.1016/j.econlet.2013.04.041>. By-products of the
+    package include least-squares cross-validation bandwidth selection
+    for the local-linear semiparametric smooth-coefficient estimator,
+    local-linear semiparametric smooth-coefficient estimation, and analytic
+    gradients of the local-constant semiparametric smooth-coefficient
+    estimator with respect to the continuous z variables following Geng and Sun (2019) 
+    <doi:10.1016/j.econlet.2019.108684>.
 License: AGPL (>= 3)
 Encoding: UTF-8
-Depends: R (>= 3.5)
-Imports: Formula, np, stats
-Config/roxygen2/version: 8.1.0
+Depends: R (>= 3.6)
+Imports: Formula, graphics, grDevices, np, progress (>= 1.2.1), stats
+Config/roxygen2/version: 8.1.1
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 LazyData: true
 NeedsCompilation: no
-Packaged: 2026-09-19 07:45:12 UTC; Administrator
 Author: Kai Sun [aut, cre]
+Packaged: 2026-11-19 05:02:58 UTC; Administrator
 Repository: CRAN
-Date/Publication: 2026-09-29 14:20:02 UTC
+Date/Publication: 2026-11-19 11:20:15 UTC

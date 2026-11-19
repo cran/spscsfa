@@ -17,14 +17,14 @@ test_that("basic", {
     covariate = z
   )
 
-  fit <- spsc_sfa(
+  fit <- spscsfa(
     output ~ input | covariate,
     data = dat,
     optim_method = "optim_BFGS",
     verbose = FALSE
   )
 
-  expect_s3_class(fit, "spsc_sfa")
+  expect_s3_class(fit, "spscsfa")
   expect_type(fit, "list")
   expect_true(is.list(fit$smooth_coefficients))
   expect_true(is.list(fit$mle_results))
